@@ -1,0 +1,73 @@
+    .watch {
+        &__container {
+            display: flex;
+        }
+        &__name {
+            width: 380px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 120%;
+            color: #000000;
+            margin-top: 246px;
+            margin-bottom: 30px;
+        }
+        &__text {
+            width: 450px;
+            height: 96px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #777777;
+            padding-left: 40px;
+            border-left: 3px solid #888888;
+            margin-bottom: 30px;
+        }
+        &__btn {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+            width: 260px;
+            height: 51px;
+            background: #EA625C;
+        }
+        &__image {
+            margin-top: 168px;
+            margin-left: 150px;
+        }
+    }
+    
+    @media only screen and(max-width:525px) {
+        .watch {
+            &__container {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            &__image {
+                width: 343px;
+                height: 420px;
+                margin-left: 16px;
+            }
+            &__name {
+                width: 336px;
+                font-size: 46px;
+                align-items: center;
+            }
+            &__text {
+                width: 303px;
+                font-size: 16px;
+                margin-bottom: 80px;
+            }
+        }
+    }

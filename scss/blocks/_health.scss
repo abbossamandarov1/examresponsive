@@ -1,0 +1,64 @@
+    .health {
+        background-image: url("/img/boyandgirl.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        &__name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 120%;
+            color: #FFFFFF;
+            margin-left: 635px;
+            padding-top: 240px;
+            margin-bottom: 30px;
+        }
+        &__text {
+            width: 450px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-left: 635px;
+            border-left: 3px solid #FFFFFF;
+            padding-left: 40px;
+        }
+        &__btn {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            align-items: center;
+            padding: 12px;
+            background: #EA625C;
+            margin-left: 635px;
+            margin-top: 30px;
+            margin-bottom: 251px;
+        }
+    }
+    
+    @media only screen and(max-width:525px) {
+        .health {
+            margin-top: 70px;
+            background-image: url("/img/boyandgirl.jpg");
+            background-size: 100%;
+            &__container {
+                display: flex;
+                flex-direction: column;
+            }
+            &__name {
+                font-size: 46px;
+            }
+            &__text {
+                width: 307px;
+                font-size: 14px;
+            }
+        }
+    }
